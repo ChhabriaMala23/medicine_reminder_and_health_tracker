@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/medicine_reminder_and_health_tracker/static/css/main.9668c020.css",
+    "main.js": "/medicine_reminder_and_health_tracker/static/js/main.65038d76.js",
+    "static/js/453.ab73677c.chunk.js": "/medicine_reminder_and_health_tracker/static/js/453.ab73677c.chunk.js",
+    "index.html": "/medicine_reminder_and_health_tracker/index.html",
+    "main.9668c020.css.map": "/medicine_reminder_and_health_tracker/static/css/main.9668c020.css.map",
+    "main.65038d76.js.map": "/medicine_reminder_and_health_tracker/static/js/main.65038d76.js.map",
+    "453.ab73677c.chunk.js.map": "/medicine_reminder_and_health_tracker/static/js/453.ab73677c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9668c020.css",
+    "static/js/main.65038d76.js"
+  ]
+}
