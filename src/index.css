@@ -1,0 +1,37 @@
+body {
+  font-family: Arial;
+  background: #f4f7fe;
+  padding: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+}
+
+.danger {
+  background: red;
+  color: white;
+}
+
+.big {
+  padding: 12px 18px;
+}
+
+.progress {
+  height: 10px;
+  background: #ddd;
+  margin-top: 10px;
+}
+
+.bar {
+  height: 100%;
+  background: blue;
+}
