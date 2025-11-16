@@ -8,6 +8,7 @@ import Welcome from "./components/Welcome";
 import Home from "./components/Home";
 import NotificationService from "./services/NotificationService";
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
+import './App.css';
 
 export default function App() {
 
@@ -74,7 +75,7 @@ export default function App() {
 
         <Route path="/" element={!user ? <Welcome /> : <Navigate to="/home" />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/register" element={!user ? <Registration onSave={setUser} /> : <Navigate to="/medicine" />} />
+        <Route path="/register" element={!user ? <Registration onSave={setUser} /> : <Navigate to="/home" />} />
 
         <Route path="/medicine" element={user ? <MedicineScheduler
           medicines={medicines}

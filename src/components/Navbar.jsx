@@ -11,7 +11,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav style={{ padding: "10px", borderBottom: "1px solid #ccc", marginBottom: "20px" }}>
+    <nav style={{ padding: "10px", borderBottom: "1px solid #ccc", marginBottom: "20px", backgroundColor: "grey"}}>
       <Link to="/medicine" style={{ marginRight: "15px" }}>Medicine</Link>
       <Link to="/hydration" style={{ marginRight: "15px" }}>Hydration</Link>
       <Link to="/sos" style={{ marginRight: "15px" }}>SOS</Link>
