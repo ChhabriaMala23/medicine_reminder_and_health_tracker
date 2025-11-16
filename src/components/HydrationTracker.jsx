@@ -16,7 +16,15 @@ export default function HydrationTracker({ hydration, setHydration }) {
         Water: {hydration.count} / {hydration.target} glasses
       </p>
 
-      <button onClick={addGlass}>+ Add Glass</button>
+      {
+        hydration.count >= hydration.target ? (
+          <p style={{ color: "green" }}>Congratulations! You've met your hydration goal for the day!</p>
+        ) : (
+          <p style={{ color: "red" }}>Keep going! You need {hydration.target - hydration.count} more glasses to reach your goal.</p>
+        )
+      }
+
+      <button onClick={addGlass} style={{marginRight: "20px"}}>+ Add Glass</button>
       <button onClick={reset}>Reset</button>
 
       <div className="progress">

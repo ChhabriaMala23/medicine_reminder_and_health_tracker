@@ -42,7 +42,7 @@
 background-color: blue;
 } */
 
-.home {
+/* .home {
   background-color: red;
   padding-top: 100px;
   text-align: center;
@@ -51,4 +51,201 @@ background-color: blue;
 
 body {
   background-color: palevioletred;
+} */
+
+
+
+/* ============================ */
+/* GLOBAL STYLES */
+/* ============================ */
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #f6f8fa;
+  color: #333;
+}
+
+h1, h2, h3 {
+  margin: 0 0 15px 0;
+  font-weight: 600;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: 0.2s ease;
+  background-color: #1976d2;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Utility */
+.danger {
+  background-color: #d32f2f !important;
+}
+
+.big {
+  font-size: 18px;
+  padding: 14px 20px;
+}
+
+/* ============================ */
+/* NAVBAR */
+/* ============================ */
+nav {
+  background: #1976d2 !important;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav button {
+  background-color: #d32f2f;
+  margin-left: auto;
+}
+
+/* ============================ */
+/* CARD COMPONENT (Shared) */
+/* ============================ */
+.card {
+  /* background: white; */
+  padding: 120px 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 450px;
+  border-radius: 12px;
+  /* box-shadow: 0 14px 12px rgba(255, 35, 35, 0.1); */
+  text-align: center;
+}
+
+/* ============================ */
+/* HOME PAGE */
+/* ============================ */
+.home {
+  padding: 120px 20px;
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.home button {
+  margin: 10px;
+}
+
+/* ============================ */
+/* MEDICINE SCHEDULER */
+/* ============================ */
+.med-item {
+  background: #f1f4f9;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 15px 0;
+  text-align: left;
+}
+
+.med-item strong {
+  font-size: 18px;
+}
+
+.med-item button {
+  margin-top: 10px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* ============================ */
+/* HYDRATION TRACKER */
+/* ============================ */
+.progress {
+  width: 100%;
+  height: 14px;
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 12px;
+}
+
+.bar {
+  height: 100%;
+  background-color: #1976d2;
+  transition: width 0.4s ease;
+}
+
+/* ============================ */
+/* SOS PAGE */
+/* ============================ */
+.sos button.big {
+  width: 100%;
+  padding: 18px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+/* ============================ */
+/* REGISTRATION */
+/* ============================ */
+.card label {
+  display: block;
+  text-align: left;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  font-size: 15px;
+}
+
+/* ============================ */
+/* WELCOME PAGE */
+/* ============================ */
+.welcome-page {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.welcome-page h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.welcome-page button {
+  padding: 12px 20px;
+  font-size: 18px;
 }

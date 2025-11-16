@@ -48,6 +48,9 @@ export default function MedicineScheduler({
           <div>
             Time: {m.times.map(t => <span key={t}>{t}</span>)}
           </div>
+          <button className="primary" style={{marginRight:"20px"}} onClick={() => removeMedicine(m.id)}>
+            Edit
+          </button>
           <button className="danger" onClick={() => removeMedicine(m.id)}>
             Remove
           </button>

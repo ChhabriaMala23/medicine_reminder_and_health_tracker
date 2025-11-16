@@ -10,10 +10,10 @@ const Home = ()=>{
     return (
         <div className="home">  
         <h1>Home page</h1>
-        <Button variant="contained">Home</Button>
-         <button onClick={()=> navigate("/medicine")}>medicine</button>
-        <button>Health</button>
-        <button>SOS</button>
+        {/* <Button variant="contained">Home</Button> */}
+         <button onClick={()=> navigate("/medicine")}>Add Medicine</button>
+        <button onClick={()=> navigate("/hydrate")}>Health</button>
+        <button onClick={()=> navigate("/sos")}>SOS</button>
         {/* <button>Login</button> */}
         </div>
     )
